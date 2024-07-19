@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.25em;
+    background-color:#1c1c1c;
+    color: #fafafa;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav > ul > li{
+    display: block;
+    margin: 0 1.2vw;
+}
+
+.bold{
+    font-weight: 800;
+}
+
+.big-text{
+    font-size: 4rem;
+}
+
+.medium-text{
+    font-size: 1.7rem;
+}
+
+#logo{
+    margin: 0 1.2vw;
+}
+
+#welcome-section{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 10vh;
+}
+#welcome-section div{
+    margin-left: 10vw;
+}
+
+#welcome-section p{
+    margin-bottom: 1vw;
+}
