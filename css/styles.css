@@ -1,6 +1,7 @@
 body{
     margin: 0;
 }
+
 header{
     display: flex;
     justify-content: space-between;
@@ -8,6 +9,8 @@ header{
     font-size: 1.25em;
     background-color:#1c1c1c;
     color: #fafafa;
+    height: 10vh;
+    padding: 0 7vw 0 7vw;
 }
 
 nav > ul{
@@ -19,6 +22,10 @@ nav > ul{
 nav > ul > li{
     display: block;
     margin: 0 1.2vw;
+}
+
+section{
+    margin-top: 100px;
 }
 
 .bold{
@@ -33,17 +40,49 @@ nav > ul > li{
     font-size: 1.7rem;
 }
 
+.articles{
+    background-color: #1c1c1c;
+    padding: 7vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.article-card{
+    margin-top: 4vh;
+    padding: 3rem;
+    background-color: #fff;
+    width: 90%;
+    border-radius: 5px; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.article-card .date{
+    color: #808080;
+}
+
+.article-card .description{
+    color: #808080;
+    font-size: 1.3rem;
+}
+
 #logo{
     margin: 0 1.2vw;
 }
 
 #welcome-section{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*display: grid;
+    grid-template-columns: repeat(2, 1fr);*/
     margin-top: 10vh;
 }
 #welcome-section div{
     margin-left: 10vw;
+    width: 50%;
 }
 
 #welcome-section p{
