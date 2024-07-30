@@ -139,12 +139,15 @@ footer {
 @media screen and (max-width: 600px) {
     header {
         flex-direction: column;
-        padding-bottom: 100px;
-        padding-top: 40px;
+        /*padding-bottom: 100px;*/
+        padding-top: 30px;
         /*display: none;*/
     }
     header li{
         padding-top: 10px;
+    }
+    header ul{
+        display: none;
     }
 
     #welcome-section {
