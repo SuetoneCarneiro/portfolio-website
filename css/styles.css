@@ -2,28 +2,6 @@ body {
     margin: 0;
 }
 
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 1.25em;
-    background-color: #1c1c1c;
-    color: #fafafa;
-    height: 10vh;
-    padding: 0 7vw 0 7vw;
-}
-
-nav>ul {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-nav>ul>li {
-    display: block;
-    margin: 0 1.2vw;
-}
-
 section {
     margin-top: 100px;
 }
@@ -134,24 +112,4 @@ footer {
         margin-top: 10vw;
         margin-left: 0;
     }
-}
-
-@media screen and (max-width: 600px) {
-    header {
-        flex-direction: column;
-        /*padding-bottom: 100px;*/
-        padding-top: 30px;
-        /*display: none;*/
-    }
-    header li{
-        padding-top: 10px;
-    }
-    header ul{
-        display: none;
-    }
-
-    #welcome-section {
-        margin-top: 0;
-    }
-
 }
