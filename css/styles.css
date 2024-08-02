@@ -20,17 +20,17 @@ section {
 
 .articles {
     background-color: #1c1c1c;
-    padding: 7vh;
+    padding: 10vh 15vh;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:flex-start;
 }
 
 .article-card {
     margin-top: 4vh;
-    padding: 3rem;
+    padding: 2rem;
     background-color: #fff;
-    width: 90%;
+    width: 100%;
     border-radius: 5px;
     display: flex;
     flex-direction: row;
@@ -95,7 +95,7 @@ footer {
 }
 
 #welcome-section div {
-    margin-left: 10vw;
+    margin-left: 7vw;
     width: 50%;
 }
 
@@ -111,5 +111,9 @@ footer {
     #welcome-section div {
         margin-top: 10vw;
         margin-left: 0;
+    }
+
+    #welcome-section img{
+        transform: scale(1.2);
     }
 }
