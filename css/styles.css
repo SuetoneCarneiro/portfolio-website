@@ -2,10 +2,6 @@ body {
     margin: 0;
 }
 
-section {
-    margin-top: 100px;
-}
-
 .bold {
     font-weight: 800;
 }
@@ -20,7 +16,7 @@ section {
 
 .articles {
     background-color: #1c1c1c;
-    padding: 10vh 15vh;
+    padding: 6vh 12vh;
     display: flex;
     flex-wrap: wrap;
     justify-content:flex-start;
@@ -46,26 +42,6 @@ section {
     font-size: 1.3rem;
 }
 
-
-.project-card {
-    border: .1rem solid #808080;
-    border-radius: 1rem;
-    box-shadow: 2px 2px 2px 2px #808080;
-    background-color: #fafafa;
-}
-
-.project-card:hover {
-    transition: .5s ease-in-out;
-    transform: scale(1.03);
-}
-
-.projects img {
-    width: 100%;
-    height: 17rem;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
 .menu-item:hover {
     transition: 0.5s ease-in-out;
     transform: scale(1.2);
@@ -75,6 +51,11 @@ section {
 .article-card:hover{
     transition: 0.5s ease-in-out;
     transform: scale(1.02);
+}
+
+.see-projects:hover{
+    color: #87CEEB;
+    text-decoration: underline;
 }
 
 footer {
@@ -115,5 +96,8 @@ footer {
 
     #welcome-section img{
         transform: scale(1.2);
+    }
+    .articles{
+        padding: 1.75rem 1.75rem;
     }
 }
